@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mask-custom {
+  background: rgba(13, 16, 20, 0.12);
+  backdrop-filter: blur(6px);
+}
+.card-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}
+.card-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.container-custom {
+  max-width: 1300px;
+  margin: auto;
+}
+.texts-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid yellow;
+  justify-content: space-between;
+}
+.title-h5 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}

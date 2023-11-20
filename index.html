@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      class="bg-image"
+      style="
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://uic.academy/banner_1.jpg');
+      "
+    >
+      <!-- Navbar -->
+      <nav
+        style="z-index: 5"
+        class="navbar navbar-expand-lg position-fixed mask-custom container-fluid p-3"
+      >
+        <!-- Container wrapper -->
+        <div class="container p-0">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand m-0" href="#">
+              <img src="./img/Group.svg" height="25" />
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Kurslarimiz</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+
+          <!-- Right elements -->
+          <div class="d-flex align-items-center gap-3">
+            <!-- Icon -->
+            <a
+              style="padding: 10px 12px"
+              class="me-3 border rounded-3 d-flex gap-2 align-items-center"
+              href="#"
+            >
+              <img
+                src="./img/ion_call-outline.svg"
+                height="20"
+                alt="ion_call-outline"
+              />
+              <span class="text-light"> +998 33 805 59 95 </span>
+            </a>
+            <a
+              style="padding: 10px 12px"
+              class="rounded-3 me-3 border d-flex gap-1 align-items-center"
+              href="#"
+            >
+              <img
+                height="20"
+                src="./img/globe-americas-solid.1 1.svg"
+                alt="globe-americas-solid"
+              />
+              <span class="text-light">O'z</span>
+            </a>
+            <button
+              style="padding: 15px 24px; max-width: 139px"
+              class="btn btn-primary shadow-0 text-capitalize rounded-3"
+              type="submit"
+            >
+              Ariza qoldirish
+            </button>
+          </div>
+          <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+
+      <div
+        class="container d-flex align-items-center justify-content-center text-center h-100"
+      >
+        <div class="text-white">
+          <p>
+            13 yillik tajriba, 200dan ortiq loyihalar, 9 yil xalqaro AyTi
+            loyihalar bilan ishlash va $24 000 dollarlik resurs bitta kursda
+          </p>
+          <h2>UIC IT Academydan <span>“Level UP” </span> kursi</h2>
+          <p>
+            Kurs haqida batafsil ma'lumotga ega bo'lish uchun quyida ariza
+            qoldiring!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div style="background: #12161c">
+      <div style="background-color: #12161c" class="container-custom">
+        <div
+          class="row d-flex align-items-center m-0 p-4 justify-content-center"
+        >
+          <div
+            style="
+              height: 174px;
+              max-width: 344px;
+              background-color: rgba(25, 30, 39, 1);
+            "
+            class="card col-md-4 col-sm-6"
+          >
+            <div
+              class="card-body d-flex align-items-center justify-content-center flex-column"
+            >
+              <h5 class="card-title">13+ yil</h5>
+              <p class="card-text text-center text-white">
+                Tajribaga ega mentorlar tomonidan darslar olib boriladi
+              </p>
+            </div>
+          </div>
+          <div
+            style="
+              height: 174px;
+              max-width: 344px;
+              background-color: rgba(25, 30, 39, 1);
+            "
+            class="card border-1 col-md-4 col-sm-6"
+          >
+            <div class="card-body">
+              <h5 class="card-title">200+</h5>
+              <p class="card-text text-center text-white">
+                Ishlab chiqilgan loyihalardan orttirilgan tarjiba
+              </p>
+            </div>
+          </div>
+          <div
+            style="
+              height: 174px;
+              max-width: 344px;
+              background-color: rgba(25, 30, 39, 1);
+            "
+            class="card border-1 col-md-4 col-sm-6"
+          >
+            <div class="card-body">
+              <h5 class="card-title">9 yil</h5>
+              <p class="card-text text-center text-white">
+                Xalqaro loyihalar bilan ishlash tajribasi
+              </p>
+            </div>
+          </div>
+          <div
+            style="
+              height: 174px;
+              max-width: 344px;
+              background-color: rgba(25, 30, 39, 1);
+            "
+            class="card border-1 col-md-4 col-sm-6"
+          >
+            <div class="card-body">
+              <h5 class="card-title">10 yil</h5>
+              <p class="card-text text-center text-white">
+                Mijozlar bilan ishlash ko‘nikmasini o‘rgatamiz
+              </p>
+            </div>
+          </div>
+          <div
+            style="
+              height: 174px;
+              max-width: 344px;
+              background-color: rgba(25, 30, 39, 1);
+            "
+            class="card border-1 col-md-4 col-sm-6"
+          >
+            <div class="card-body">
+              <h5 class="card-title">6+ yil</h5>
+              <p class="card-text text-center text-white">
+                Kiberxavfsizlik bo’yicha erishilgan tajribani ulashamiz
+              </p>
+            </div>
+          </div>
+          <div
+            style="
+              height: 174px;
+              max-width: 344px;
+              background-color: rgba(25, 30, 39, 1);
+            "
+            class="card border-1 col-md-4 col-sm-6"
+          >
+            <div class="card-body">
+              <h5 class="card-title">$4M+</h5>
+              <p class="card-text text-center text-white">
+                Investitsiya jalb qilishda orttirilgan bilimlarni ulashamiz
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div style="background-color: #0d1014">
+      <div class="container-custom border-danger ">
+        <div class="row">
+          <div
+            style="
+              max-width: 100%;
+              height: 80px;
+              border-radius: 10px;
+              background: #191e27;
+            "
+            class="card col-lg-4 col-12 d-flex justify-content-center "
+          >
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="texts-wrapper">
+                <p style="background-color: red" class="card-text">
+                  Bizning jamoa
+                </p>
+                <h5 style="background-color: red" class="card-title1">
+                  Eng tez o‘suvchi IT kompaniya
+                </h5>
+              </div>
+              <img src="./img/rocket.svg" alt="rocket" />
+            </div>
+          </div>
+          <div
+            style="
+              max-width: 100%;
+              height: 80px;
+              border-radius: 10px;
+              background: #191e27;
+            "
+            class="card col-lg-4 col-12"
+          >
+            <div class="card-body">
+              <div class="texts-wrapper">
+                <p class="card-text">Bizning jamoa</p>
+                <h5 class="card-title1">Eng tez o‘suvchi IT kompaniya</h5>
+              </div>
+              <img src="./img/thunder.svg" alt="thunder" />
+            </div>
+          </div>
+          <div
+            style="
+              max-width: 100%;
+              height: 80px;
+              border-radius: 10px;
+              background: #191e27;
+            "
+            class="card col-lg-4 col-12"
+          >
+            <div class="card-body">
+              <div class="texts-wrapper">
+                <p class="card-text">Bizning jamoa</p>
+                <h5 class="card-title1">Eng tez o‘suvchi IT kompaniya</h5>
+              </div>
+              <img src="./img/users.svg" alt="users" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Dastur davomida nimalarga ega bo’lasiz --- qism-->
+    <div style="background-color: #12161c">
+      <div
+        class="row d-flex align-items-center justify-content-center container-custom px-4 pb-5"
+      >
+        <h5 class="text-center title-h5 m-0 pb-5 pt-5">
+          Dastur davomida nimalarga ega bo’lasiz
+        </h5>
+        <div
+          style="background-color: #191e27; max-width: 526px"
+          class="card col-md-6 col-12"
+        >
+          <div class="card-body">
+            <img src="./img/Count.png" alt="Count" />
+            <p class="card-text text-white">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div
+          style="background-color: #191e27; max-width: 526px"
+          class="card col-md-6 col-12"
+        >
+          <div class="card-body">
+            <img src="./img/Count.png" alt="Count" />
+            <p class="card-text text-white">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div
+          style="background-color: #191e27; max-width: 526px"
+          class="card col-md-6 col-12"
+        >
+          <div class="card-body">
+            <img src="./img/Count.png" alt="Count" />
+            <p class="card-text text-white">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div
+          style="background-color: #191e27; max-width: 526px"
+          class="card col-md-6 col-12"
+        >
+          <div class="card-body">
+            <img src="./img/Count.png" alt="Count" />
+            <p class="card-text text-white">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div
+          style="background-color: #191e27; max-width: 526px"
+          class="card col-md-6 col-12"
+        >
+          <div class="card-body">
+            <img src="./img/Count.png" alt="Count" />
+            <p class="card-text text-white">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div
+          style="background-color: #191e27; max-width: 526px"
+          class="card col-md-6 col-12"
+        >
+          <div class="card-body">
+            <img src="./img/Count.png" alt="Count" />
+            <p class="card-text text-white">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Dastur davomida nimalarga ega bo’lasiz --- qism-->
+
+    <!-- Shuningdek: ---qism -->
+    <div style="background: #0d1014">
+      <div
+        class="container-custom px-4 row d-flex align-items-center justify-content-center pb-5 pt-5"
+      >
+        <h5 class="text-center title-h5 pb-5">Shuningdek</h5>
+        <div
+          style="max-width: 354px; height: 249px; background-color: transparent"
+          class="card col-md-4 col-sm-6 rounded-5 border p-0"
+        >
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title2 text-white">
+              Loyihalarni topish, tenderlarda qatnashish va ularni ishlab
+              chiqish
+            </h5>
+            <img width="48" src="./img/world.png" alt="globe-americas-solid" />
+          </div>
+        </div>
+        <div
+          style="max-width: 354px; height: 249px; background-color: transparent"
+          class="card col-md-4 col-sm-6 rounded-5 border p-0"
+        >
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title2 text-white">
+              Loyihalarni topish, tenderlarda qatnashish va ularni ishlab
+              chiqish
+            </h5>
+            <img width="48" src="./img/Group.png" alt="Group" />
+          </div>
+        </div>
+        <div
+          style="max-width: 354px; height: 249px; background-color: transparent"
+          class="card col-md-4 col-sm-6 rounded-5 border p-0"
+        >
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title2 text-white">
+              Loyihalarni topish, tenderlarda qatnashish va ularni ishlab
+              chiqish
+            </h5>
+            <img width="48" src="./img/nout-icon.png" alt="nout-icon" />
+          </div>
+        </div>
+        <div
+          style="max-width: 354px; height: 249px; background-color: transparent"
+          class="card col-md-4 col-sm-6 rounded-5 border p-0"
+        >
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title2 text-white">
+              Loyihalarni topish, tenderlarda qatnashish va ularni ishlab
+              chiqish
+            </h5>
+            <img width="48" src="./img/sdd.png" alt="sdd" />
+          </div>
+        </div>
+        <div
+          style="max-width: 354px; height: 249px; background-color: transparent"
+          class="card col-md-4 col-sm-6 rounded-5 border p-0"
+        >
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title2 text-white">
+              Loyihalarni topish, tenderlarda qatnashish va ularni ishlab
+              chiqish
+            </h5>
+            <img width="48" src="./img/setting.png" alt="setting" />
+          </div>
+        </div>
+        <div
+          style="max-width: 354px; height: 249px; background-color: transparent"
+          class="card col-md-4 col-sm-6 rounded-5 border p-0"
+        >
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title2 text-white">
+              Loyihalarni topish, tenderlarda qatnashish va ularni ishlab
+              chiqish
+            </h5>
+            <img width="48" src="./img/Group7.png" alt="Group7" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Shuningdek: ---qism -->
+
+    <!-- <div style="background-color: #12161c">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div style="max-width: 253px" class="card">
+            <div
+              class="bg-image hover-overlay ripple"
+              data-mdb-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp"
+                class="img-fluid"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
